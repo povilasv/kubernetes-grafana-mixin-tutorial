@@ -47,11 +47,9 @@ kubedashboards {
 
 This will import the dashboard and override job selectors. 
 
-<aside class="notice">
-Adjust the Prometheus label selectors to your actual environment.
-</aside>
+:warning: Adjust the Prometheus label selectors to your actual environment.
 
-## Now it's time to build the dashboard.
+## Build the dashboard.
 
 Create a `dashboards` directory.
 
@@ -98,6 +96,7 @@ You can read more about it in [grafana docs](https://grafana.com/docs/administra
 After some time passes, there will be changes to the dashboards. 
 
 In order to update you need to execute:
+
 ```
 jb update 
 ```
