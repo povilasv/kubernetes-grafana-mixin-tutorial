@@ -85,13 +85,15 @@ ls -l dashboards
 -rw-r--r-- 1 povilasv povilasv 25650 Apr 26 08:29 kube-scheduler.json
 ```
 
-# Provisioning into Grafana
+# Adding Dashboards to Grafana
 
 I highly recommend you provision these dashboards via config files.
 
 You can read more about it in [grafana docs](https://grafana.com/docs/administration/provisioning/#dashboards).
 
-# Updating your dashboards.
+But in general nothing stops you going thru [Grafana UI and adding them there](https://grafana.com/docs/reference/export_import/#importing-a-dashboard)
+
+# Update dashboards
 
 After some time passes, there will be changes to the dashboards. 
 
