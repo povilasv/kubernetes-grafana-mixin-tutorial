@@ -74,7 +74,7 @@ dashboards/kubelet.json
 
 ## Result
 
-List your dashboard directory. 
+List your dashboards directory. 
 
 ```
 ls -l dashboards
